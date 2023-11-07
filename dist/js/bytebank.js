@@ -1,5 +1,4 @@
 let saldo = 3000;
-alert("testendo compilacao do TS");
 const elementoSaldo = document.querySelector('.saldo-valor .valor');
 if (elementoSaldo != null) {
     elementoSaldo.textContent = saldo.toString();
